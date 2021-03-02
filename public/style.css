@@ -83,7 +83,7 @@ body{
   margin-bottom: 3%;
   font-family: 'Cabin Sketch', cursive;
   font-weight: bold;
-
+  text-decoration: underline;
 }
 #a-logo{
   border-radius: 50px;
