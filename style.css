@@ -1,0 +1,93 @@
+body video {
+    width: 100%;
+    opacity: 0.8;
+    height: auto;
+    z-index: -500;
+    pointer-events: none;
+    position: fixed;
+    background-size: cover;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#aman_image{
+  height:300px;
+  border-radius:10px;
+
+
+
+}
+.aman_image{
+  text-align: center;
+}
+#vision_para{
+  margin:50px;
+  font-size:2rem;
+
+}
+.vision_text{
+  text-align: center;
+  color:#ff4d4d;
+}
+
+.vision{
+  padding-top:5%;
+
+}
+#heading{
+  margin-bottom:5%;
+}
+#photo_wala_section{
+  margin-bottom: 100px;
+}
+.Experience-start{
+  height:50px;
+  text-align: center;
+  background-color: black;
+  color:#fff;
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+.channel_para{
+  color:#ff4d4d;
+  text-align: center;
+}
+.logo{
+  text-align: center;
+  margin-bottom: 3%;
+}
+.Channels-1{
+  margin-bottom: 3%;
+}
+.Channels-2{
+  margin-bottom: 3%;
+}
+.Channels-3{
+  margin-bottom: 3%;
+}
+
+
+.youtube1{
+  font-size: 10rem;
+  color:red;
+}
+.channel_para_heading{
+  color:black;
+  text-align: center;
+  margin-bottom: 3%;
+}
+#a-logo{
+  border-radius: 50px;
+}
+.flex-row{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  justify-content: flex-end;
+}
+.fa-Instagram{
+  color:#ff4d4d;
+}
+.youtube2{
+  color:#ff4d4d;
+}
