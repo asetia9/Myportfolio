@@ -55,7 +55,7 @@ body{
 .channel_para{
   color:#ff4d4d;
   text-align: center;
-  font-family: 'Cabin Sketch', cursive;
+
 }
 .logo{
   text-align: center;
@@ -80,6 +80,7 @@ body{
   color:black;
   text-align: center;
   margin-bottom: 3%;
+  font-family: 'Cabin Sketch', cursive;
 }
 #a-logo{
   border-radius: 50px;
