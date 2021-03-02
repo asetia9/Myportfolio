@@ -1,11 +1,14 @@
 body video {
-    width: 100%;
+    width: auto;
     opacity: 0.8;
-    height: auto;
+    height: 100%;
     z-index: -500;
     pointer-events: none;
     position: fixed;
-    background-size: cover;
+
+    background-size: auto;
+    autoplay:true;
+    scroll-behavior: smooth;
 
 }
 body{
