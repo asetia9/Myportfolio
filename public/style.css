@@ -53,7 +53,7 @@ body{
   margin-bottom: 5%;
 }
 .channel_para{
-  color:#ff4d4d;
+  color:#8109b0;
   text-align: center;
 
 }
@@ -78,9 +78,12 @@ body{
 }
 .channel_para_heading{
   color:black;
+  font-size:3rem;
   text-align: center;
   margin-bottom: 3%;
   font-family: 'Cabin Sketch', cursive;
+  font-weight: bold;
+
 }
 #a-logo{
   border-radius: 50px;
