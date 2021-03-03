@@ -10,3 +10,10 @@ app.get("/",function(req,res){
   res.sendFile(__dirname+"/index.html");
 
 });
+app.get("/download",function(req,res){
+  const file = "public/Download/resume.pdf";
+  res.download(file);
+
+
+
+});

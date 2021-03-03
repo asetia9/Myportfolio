@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Aman Dhattarwal</title>
+  <title>Amanpreet Singh Setia</title>
+
+  <script type="text/javascript" src="javascript/script.js">
+
+  </script>
   <script src="https://kit.fontawesome.com/abb273218e.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
@@ -19,10 +23,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
 
 
+
 </head>
 <body>
 
   <!-- navbar of apni kaksha -->
+
+
+
+
   <video  autoplay muted loop playsinline id="videobg">
     <source src="bgvideo/bgvideo.mp4" type="video/mp4">
   </video>
@@ -40,25 +49,34 @@
           <ul  class="navbar-nav ml-auto">
             <li class="nav-item">
 
-                <a href="https://www.instagram.com/dhattarwalaman/" class="nav-link"><i class="fab fa-instagram"></i> Instagram</a>
+
+
+                <a href="#experience" class="nav-link"><span id="myElement"></span><i class="fas fa-project-diagram"></i> Projects</a>
+
+
+            </li>
+
+            <li class="nav-item">
+
+                <a href="#codingskills" class="nav-link"><i class="fas fa-database"></i> DSA</a>
 
 
             </li>
             <li class="nav-item">
 
-                <a href="https://www.youtube.com/channel/UCmXZxX_qexEZxhb5_vQKPCw" class="nav-link"><i class="fab fa-youtube youtube2"></i> YouTube</a>
+                <a href="#Jobs" class="nav-link"><i class="fas fa-suitcase"></i> Experience</a>
 
 
             </li>
             <li class="nav-item">
 
-                <a href="  https://www.linkedin.com/in/dhattarwalaman/" class="nav-link"><i class="fab fa-linkedin "></i> LinkedIn</a>
+                <a href="#certifications" class="nav-link"><i class="fas fa-certificate"></i> Certifications</a>
 
 
             </li>
             <li class="nav-item">
 
-                <a href="https://twitter.com/AmanDhattarwal" class="nav-link"><i class="fab fa-twitter "></i> Twitter</a>
+                <a href="/download" class="nav-link"><i class="fas fa-cloud-download-alt" Download></i> Download Resume</a>
 
 
             </li>
@@ -91,18 +109,33 @@
 
 
     <div class="row a" >
-        <div class="col-lg-6 aman_image"> <img src="images/AmanDhattarwal.jpg" class="img-fluid" id="aman_image"></div>
+        <div class="col-lg-6 aman_image"> <img src="images/Portfolio image.jpeg" class="img-fluid" id="aman_image"></div>
 
         <div class="col-lg-6 vision_text">
-          <p id="vision_para">
-          "My vision is to make High Quality Eduaction available to every Student in India"<br>
-          ~Aman Dhattarwal
+          <p id="vision_para" class="element">
+          "I am a <span id="element"></span><br>
+          ~Amanpreet Singh Setia
           </p>
+
+
+
         </div>
 
     </div>
     </div>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script type="text/javascript">
+var options = {
+strings: ['Full Stack Web Developer" ', 'Passionate Coder"','Keen Learner"'],
+typeSpeed: 100,
+backSpeed:80,
+loop:"true"
+};
+
+var typed = new Typed('#element', options);
+
+</script>
 
 
 
@@ -113,13 +146,14 @@
 
   <div class=" row Experience-start">
     <div class="col-lg-12">
-      Experience
+      Projects
 
     </div>
   </div>
   <div class="row Channels-4">
       <div class="col-lg-5 logo">
-        <img src="images/unacademy.jpg" alt="">
+
+        <i class="fas fa-dog" style="font-size:5rem;"></i>
 
       </div>
       <div class="col-lg-1">
@@ -127,12 +161,10 @@
       </div>
 
       <div class="col-lg-6">
-        <h3 class="channel_para_heading">#1 IIT-JEE Faculty at Unacademy</h3>
-        <p  class="channel_para">-- I am the #1 Top Educator for IIT JEE on India's leading online educational platform.<br>
-- I help students fall in love with Physics and at the same time secure a good college and rank for their Btech.<br>
-- I have set a record of the maximum number of students attending a LIVE Class with more than 364K likes in a single class.<br>
-- Maximum number of followers in JEE Category on Unacademy (2,00,000+)<br>
-- Highest watch time.</p>
+        <h3 class="channel_para_heading">Tindog</h3>
+        <p  class="channel_para">-I crafted this project to improve my skills in building responsive websites<br>
+              -Technologies used:-HTML,CSS,JS and Bootstrap
+          </p>
 
 
       </div>
@@ -140,9 +172,11 @@
 
   </div>
 
+
+
   <div class="row Channels-1">
       <div class="col-lg-5 logo">
-        <img src="images/hustlersbay.jpg" alt=""  class="img-fluid">
+        <i class="fas fa-laptop-code" style="font-size:5rem"></i>
 
       </div>
       <div class="col-lg-1">
@@ -150,11 +184,12 @@
       </div>
 
       <div class="col-lg-6">
-        <h3 class="channel_para_heading">Hustler's Bay</h3>
-        <p class="channel_para">- Most Subscribed Ed Tech Channel. 1,50,000 Subscribers joined on Launch Day <br>
-            - Discusses the honest journey of successful individuals. <br>
-            - Podcasts with top influencers. <br>
-            - Insights by Aman Dhattarwal</p>
+        <h3 class="channel_para_heading">Smart Billing Machine</h3>
+        <p class="channel_para">- This machine takes the input from wholesellers calculates the annual cost <br>
+          -selects the most efficient and cheapest wholeseller and displays it's name <br>
+          Technologies used:-HTML,CSS,JS and Bootstrap
+
+        </p>
 
 
       </div>
@@ -163,7 +198,7 @@
   </div>
   <div class="row Channels-2">
       <div class="col-lg-5 logo">
-        <img src="images/apnacollege.jpg" class="img-fluid" height="200px" width="200px">
+        <i class="fas fa-puzzle-piece" style="font-size:5rem"></i>
 
       </div>
       <div class="col-lg-1">
@@ -171,36 +206,106 @@
       </div>
 
       <div class="col-lg-6">
-        <h3 class="channel_para_heading">Apna College</h3>
-        <p  class="channel_para">- I started this YT channel and we got a record-breaking 1 lakh subscribers on an educational platform on the first day.<br>
-- With the help of this channel, I wanted to make placement and job preparation courses for undergraduates.<br>
-- All content is of top-notch quality and free for all students.<br>
-- Currently it has a student base of 3Lakh+ subscribers</p>
+        <h3 class="channel_para_heading">Puzzle Game</h3>
+        <p  class="channel_para">-A simple puzzle game built on Pure basic Javascript having levels from easy to hard</p>
 
 
       </div>
 
 
   </div>
-  <div class="row Channels-3">
-      <div class="col-lg-5 logo">
-        <img src="images/apnikaksha.jpg" alt="">
+
+
+</section>
+<section id="codingskills">
+  <div class="container-fluid">
+    <div class=" row Experience-start">
+      <div class="col-lg-12">
+        Competetive Programming
 
       </div>
-      <div class="col-lg-1">
+    </div>
+    <div class="row Channels-2">
+        <div class="col-lg-6 logo">
+          <a href="https://auth.geeksforgeeks.org/user/amanpreetsinghsetiagu/profile">
+        <img src="images/gfg_icon.PNG" alt="" class="img-fluid" height="100px" width="100px">
+      </a>
+
+        </div>
+        <div class="col-lg-6">
+          <a href="https://auth.geeksforgeeks.org/user/amanpreetsinghsetiagu/profile"><h3 class="channel_para_heading">Geeks For Geeks</h3></a>
+
+        </div>
+
+
+
+
+
+    </div>
+    <div class="row Channels-2">
+        <div class="col-lg-6 logo">
+          <a href="https://auth.geeksforgeeks.org/user/amanpreetsinghsetiagu/profile">
+        <img src="images/codeforces.PNG" alt="" class="img-fluid" height="100px" width="100px">
+      </a>
+
+        </div>
+        <div class="col-lg-6">
+          <a href="https://codeforces.com/profile/GurFateh"><h3 class="channel_para_heading">Code Forces</h3></a>
+
+        </div>
+
+
+
+
+
+    </div>
+
+  </div>
+
+</section>
+<section id="Jobs">
+  <div class="container-fluid">
+    <div class=" row Experience-start">
+      <div class="col-lg-12">
+        Experience
 
       </div>
+    </div>
+    <div class="row Channels-2">
+        <div class="col-lg-6 logo">
 
-      <div class="col-lg-6">
-        <h3 class="channel_para_heading">Apni Kaksha</h3>
-        <p  class="channel_para">- I am the Founder of Apni Kaksha.<br>
-- More than 7,50,000 subscribers and one of the fastest-growing educational channel.<br>
-- I wanted to make a platform where I could bring top faculties and subject experts and provide quality to free education across India.<br>
-- I am now working in the field of Animation, where I will be providing animated video lectures to students across India for Board Examination/Competitive Exams and Placement Courses.</p>
+        <img src="images/geny.jpg" alt="" class="img-fluid" height="100px" width="100px">
 
 
-      </div>
+        </div>
+        <div class="col-lg-6">
+          <a href="https://www.instagram.com/geny_events/"><h3 class="channel_para_heading">Head of Logistics(2020)</h3></a>
+          <p  class="channel_para">-I am the Head of Logistics Department at Geny Events Team(Best event conducting team of our campus)</p>
 
+        </div>
+
+
+
+
+
+    </div>
+    <div class="row Channels-2">
+        <div class="col-lg-6 logo">
+          <img src="images/geny.jpg" alt="" class="img-fluid" height="100px" width="100px">
+
+
+        </div>
+        <div class="col-lg-6">
+          <a href="https://www.instagram.com/geny_events/"><h3 class="channel_para_heading">Team Member of Logistics(2019)</h3></a>
+          <p  class="channel_para">-I joined Geny Events as a member in logistic department</p>
+
+        </div>
+
+
+
+
+
+    </div>
 
   </div>
 
@@ -208,10 +313,50 @@
 
 
 
+<section id="certifications">
+  <div class="container-fluid">
+    <div class=" row Experience-start">
+      <div class="col-lg-12">
+        Certifications.
+
+      </div>
+    </div>
+    <div class="row Channels-2">
+
+        <div class="col-lg-12">
+          <a href="https://nptel.ac.in/noc/Ecertificate/?q=NPTEL20CS58S61860036036231"><h3 class="channel_para_heading">Programming in Java Nptel</h3></a>
+
+
+        </div>
+
+
+
+
+
+    </div>
+    <div class="row Channels-2">
+
+        <div class="col-lg-12">
+          <a href="https://www.coursera.org/account/accomplishments/verify/XVXAR8UK8ETE"><h3 class="channel_para_heading">Python for everybody Coursera</h3></a>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
 <div class="container-fluid bg-dark footer">
     <div class="row">
       <div class="col-lg-12">
-        <p id="made_by_text">Developed with 💖 by Mr. Setia</p>
+        <p id="made_by_text">Crafted with ❤️ by Amanpreet Singh</p>
 
       </div>
 
