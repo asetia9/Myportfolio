@@ -1,3 +1,6 @@
+html::-webkit-scrollbar {
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
 body video {
     width: auto;
     opacity: 0.8;
@@ -13,6 +16,7 @@ body video {
 }
 body{
     font-family: 'Montserrat', sans-serif;
+
 }
 #aman_image{
   height:300px;
