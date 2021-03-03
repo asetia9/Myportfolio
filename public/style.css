@@ -5,13 +5,13 @@ body video {
     width: auto;
     opacity: 0.8;
     height: 100%;
-    z-index: -500;
-    pointer-events: none;
+    z-index: -1000;
+
     position: fixed;
 
     background-size: auto;
     autoplay:true;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 
 }
 body{
@@ -105,4 +105,15 @@ body{
 }
 .youtube2{
   color:#ff4d4d;
+}
+.footer{
+  height:30px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 30px;
+  font-size:15px;
+  color:#fff;
+  position:fixed;
+  bottom: 0px;
+
 }
