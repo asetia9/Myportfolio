@@ -122,7 +122,16 @@ font-family: 'RocknRoll One', sans-serif;
   bottom: 0px;
 
 }
-
+.Experience-start2{
+  height:100px;
+  text-align: center;
+  background-color: black;
+  color:#fff;
+  font-size: 1rem;
+  margin-bottom: 5%;
+  vertical-align: center;
+  line-height: 100px;
+}
 
 .element{
   color:#ff4d4d;
