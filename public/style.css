@@ -52,12 +52,14 @@ body{
   margin-bottom: 100px;
 }
 .Experience-start{
-  height:50px;
+  height:100px;
   text-align: center;
   background-color: black;
   color:#fff;
   font-size: 2rem;
   margin-bottom: 5%;
+  vertical-align: center;
+  line-height: 100px;
 }
 .channel_para{
   color:#8109b0;
@@ -120,7 +122,6 @@ font-family: 'RocknRoll One', sans-serif;
   bottom: 0px;
 
 }
-
 
 
 .element{
