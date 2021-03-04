@@ -7,6 +7,7 @@ body video {
     height:auto;
     z-index: -1000;
 
+
     position: fixed;
     pointer-events: none;
 
@@ -87,10 +88,10 @@ body{
 }
 .channel_para_heading{
   color:black;
-  font-size:3rem;
+  font-size:1rem;
   text-align: center;
   margin-bottom: 3%;
-  font-family: 'Cabin Sketch', cursive;
+font-family: 'RocknRoll One', sans-serif;
   font-weight: bold;
   text-decoration: underline;
 }
