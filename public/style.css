@@ -2,9 +2,9 @@ html::-webkit-scrollbar {
     width: 0px; /* For Chrome, Safari, and Opera */
 }
 body video {
-    height:100%;
+    min-width: 100%;
     opacity: 0.8;
-    width:auto;
+    min-height: 100%;
     z-index: -1000;
 
 
