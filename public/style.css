@@ -62,8 +62,10 @@ body{
   line-height: 100px;
 }
 .channel_para{
-  color:#8109b0;
+  color:#black;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
 
 }
 .logo{
@@ -93,7 +95,8 @@ body{
   font-size:1rem;
   text-align: center;
   margin-bottom: 3%;
-font-family: 'RocknRoll One', sans-serif;
+  font-family: "Open Sans", sans-serif;
+
   font-weight: bold;
   text-decoration: underline;
 }
@@ -125,6 +128,7 @@ font-family: 'RocknRoll One', sans-serif;
 
 
 .element{
-  color:#ff4d4d;
+  color:#000000;
+font-family: 'Raleway', sans-serif;
 
 }
