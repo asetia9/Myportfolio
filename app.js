@@ -11,7 +11,7 @@ app.get("/",function(req,res){
 
 });
 app.get("/download",function(req,res){
-  const file = "public/Download/Amanpreet_Singh_Fresher_2022.pdf";
+  const file = "public/Download/AmanpreetSingh_Web Developer_Fresher.pdf";
   res.download(file);
 
 
