@@ -11,7 +11,7 @@ app.get("/",function(req,res){
 
 });
 app.get("/download",function(req,res){
-  const file = "public/Download/Amanpreet_Singh_Setia_SWE_Fresher (1).pdf";
+  const file = "public/Download/Amanpreet_Singh.pdf";
   res.download(file);
 
 
