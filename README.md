@@ -1,3 +1,3 @@
 # Myportfolio
-It's Deployed on Heroku 
-Link :- https://fierce-atoll-94899.herokuapp.com/ 
+It's Deployed on onrender
+Link :- https://amanpreetsingh.onrender.com/
