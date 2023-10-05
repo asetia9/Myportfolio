@@ -39,7 +39,7 @@ body{
 }
 .vision_text{
   text-align: center;
-  color:#ff4d4d;
+  color:purple
 
 }
 
@@ -64,7 +64,7 @@ body{
   line-height: 100px;
 }
 .channel_para{
-  color:#ff4d4d;
+  color:rgb(212, 0, 212);
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 
@@ -112,10 +112,10 @@ body{
 }
 
 .fa-Instagram{
-  color:#ff4d4d;
+  color:rgb(184, 3, 184);
 }
 .youtube2{
-  color:#ff4d4d;
+  color:rgb(184, 3, 184);
 }
 .footer{
   height:30px;
@@ -131,7 +131,13 @@ body{
 
 
 .element{
-  color:#ff4d4d;
+  color:rgb(184, 3, 184);
 font-family: 'Montserrat', sans-serif;
 
+}
+a {
+  color:rgb(184, 3, 184);
+}
+a:hover{
+  color:purple;
 }
